@@ -1,6 +1,10 @@
-document.getElementById("btnHello").onclick = function () {
+function showHello() {
   alert("xin chào");
-};
-document.getElementById("btnBye").onclick = function () {
+}
+
+function showBye() {
   alert("tạm biệt");
-};
+}
+
+document.getElementById("btnHello").onclick = showHello;
+document.getElementById("btnBye").onclick = showBye;
